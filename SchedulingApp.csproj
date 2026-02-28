@@ -170,6 +170,7 @@
       <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include=".gitignore" />
+    <None Include="Database\README_DB.md" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -183,6 +184,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\seed.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
